@@ -1,0 +1,31 @@
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.main {
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.name-column {
+    background: plum;
+    flex: 1
+}
+
+.name-container {
+    background: yellowgreen;
+    display: flex;
+    height: 100%
+}
+
+.name {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
