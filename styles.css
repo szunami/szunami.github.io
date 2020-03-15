@@ -1,21 +1,40 @@
-.logo {
-    width: 30%;
-    height: 30%;
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
 }
 
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.external-logo {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
 .main {
-    background: lightblue;
+    /* background: lightblue; */
     display: flex;
     flex-direction: row;
 }
 
 .name-column {
-    background: plum;
+    /* background: plum; */
     flex: 1
 }
 
 .name-container {
-    background: yellowgreen;
+    /* background: yellowgreen; */
     display: flex;
     height: 100%
 }
@@ -27,5 +46,6 @@
     justify-content: center;
     flex-direction: column;
 
-    
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 72px;
 }
