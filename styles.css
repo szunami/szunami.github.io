@@ -5,15 +5,15 @@
     height: 100%
 }
 
-.logo-wrapper img:last-child {
+.swap-wrapper .swap:last-child {
     display: none;
 }
 
-.logo-wrapper:hover img:last-child {
-    display: block;  
+.swap-wrapper:hover .swap:last-child {
+    display: inline;  
 }
 
-.logo-wrapper:hover img:first-child {
+.swap-wrapper:hover .swap:first-child {
     display: none
 }
 
