@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'asepritefontmedium';
+    src: url('asepritefont-webfont.woff2') format('woff2'),
+         url('asepritefont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: ebede9;
 }
@@ -43,7 +51,13 @@ body {
     flex-direction: row;
 }
 
+.gif-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .name-column {
+    padding-left: 20px;
     flex: 1
 }
 
@@ -58,9 +72,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
     text-align: center;
 
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-size: 48px;
+    font-family: 'asepritefontmedium'; 
+    color: #cf573c;
+    font-size: 64px;
 }
