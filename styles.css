@@ -17,17 +17,6 @@ body {
     height: 100%
 }
 
-.swap-wrapper .swap:last-child {
-    display: none;
-}
-
-.swap-wrapper:hover .swap:last-child {
-    display: inline;  
-}
-
-.swap-wrapper:hover .swap:first-child {
-    display: none
-}
 
 .logo {
     width: 200px;
@@ -73,7 +62,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
+    line-height: 40px;
     font-family: 'asepritefontmedium'; 
     color: #cf573c;
     font-size: 64px;
