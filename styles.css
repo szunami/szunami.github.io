@@ -59,8 +59,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    line-height: 40px;
-    font-family: 'asepritefontmedium';
+    font-family: 'helvetica';
     color: #cf573c;
     font-size: 64px;
 }
